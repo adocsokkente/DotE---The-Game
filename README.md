@@ -10,4 +10,6 @@ Alapszabályok a fejlesztés során:
 4. Ha nincs kedv kódoláshoz, tervezéshez stb., lehetőség szerint jelezd, de nem fog senki neheztelni. Ez egy önszorgalomból magunknak írt projektmunka.
 5. Ezt az egész projektet úgy kell felfogni, mint egyfajta "örömteli tisztelgést" a klánunk felé. Következésképpen ezt a munkát kikapcsolódásképp érdemes felfogni, aminek a végén jót üdülünk, de ugyanakkor igyekezzünk tisztelettel hozzáállni a saját munkánkhoz és egymáséhoz egyaránt.
 
+Ha van további ötletetek, kommentben várjuk (Commits fülnél ki kell keresni az adott fájl legutóbbi módosítását, és ott lehet kommentet elhelyezni)!
+
 A leírás további része folyamatban van...

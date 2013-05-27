@@ -8,6 +8,7 @@
 
 class BufferItem : public Item
 {
+protected:
     ///Maximális korlát
     unsigned UseMax;
     ///Felhasználtság számláló

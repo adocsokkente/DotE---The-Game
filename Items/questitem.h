@@ -3,6 +3,7 @@
 
 
 /** Küldetés tárgy osztály */
+
 class QuestItem : public Item
 {
 protected:
@@ -10,13 +11,20 @@ protected:
     unsigned questID;
 public:
     ///Konstruktor
-    QuestItem(std::string n = std::string(), std::string d = std::string(), bool s = false):Item(n,d,s),questID(0){}
+    QuestItem(std::string n = std::string(),    ///Név
+              std::string d = std::string(),    ///Leírás
+              bool s = false,                   ///Eladhatóság
+              unsigned q = 0)                   ///Küldetés ID
+              :Item(n,d,s),                     ///Alaposztály konstruktorának meghívása
+              questID(q)                        ///Küldetés ID konstruktorának meghívása
+              { /** Itt semmit nem kell csinálni */ }
+
     ///Azonosító lekérdezése
     virtual const unsigned getQuestID(void) const {return questID;}
     ///Azonosító beállítása
     virtual void setQuestID(const unsigned q) {questID = q;}
     ///Destruktor
-    virtual ~QuestItem() {}
+    virtual ~QuestItem() { /** Itt semmit nem kell csinálni */ }
 };
 
 #endif // QUESTITEM_H

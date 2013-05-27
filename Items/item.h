@@ -3,6 +3,7 @@
 #include <iostream>
 
 /** Tárgy alaposztály */
+
 class Item
 {
 protected:
@@ -14,7 +15,14 @@ protected:
     bool sellable;
 public:
     ///Konstruktor
-    Item(std::string n = std::string(), std::string d = std::string(), bool s = false) : name(n), description(d), sellable(s){}
+    Item(std::string n = std::string(), ///Név
+         std::string d = std::string(), ///Leírás
+         bool s = false)                ///Eladhatóság
+         : name(n),                     ///Név beállítása
+         description(d),                ///Leírás beállítása
+         sellable(s)                    ///Eladhatóság beállítása
+         { /** Itt semmit nem kell csinálni */ }
+
     ///Név lekérdezése
     virtual const std::string& getName(void) const {return name;}
     ///Név beállítása
@@ -28,7 +36,7 @@ public:
     ///Eladhatóság beállítása
     virtual void setSellable(bool s) {sellable = s;}
     ///Destruktor
-    virtual ~Item(){}
+    virtual ~Item(){ /** Itt semmit nem kell csinálni */ }
 };
 
 #endif // ITEM_H

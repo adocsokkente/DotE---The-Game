@@ -12,4 +12,18 @@ Alapszabályok a fejlesztés során:
 
 Ha van további ötletetek, kommentben várjuk (Commits fülnél ki kell keresni az adott fájl legutóbbi módosítását, és ott lehet kommentet elhelyezni)!
 
+Ütemterv:
+---------
+
+1. Alaposztályok megvalósítása (Item, Character, Inventory, ...)
+2. Grafikus felület megvalósítása (UI, karakterek, tárgyak, ...)
+3. Játszható verzió összeálítása, tesztelés
+4. Netes kezelőfelület megvalósítása
+5. Végleges verzió tesztelése
+6. UPDATE, CONTENTS
+
+A megvalósítás első két lépése történhet szimultán, de ezesetben egymással szinrkonban kell dolgozni.
+
+--
+
 A leírás további része folyamatban van...

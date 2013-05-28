@@ -1,17 +1,10 @@
 #include "item.h"
 #include <iostream>
+#include <sdl_image.h>
+#include "imagefiles.h"
 
+/** Tömb osztály kívül implementált függvényei és statikus tagjai */
 
-/** Tömb osztály kívül implementált függvényei */
+///A kép kezeléséért felelős statikus objektum inicializálása
+const Image Item::img = Image(ITEMS_PIC);
 
-/// Tárgy nevét beállító függvény
-void Item::setName(const std::string& n)
-{
-    name = n;
-}
-
-/// Tárgy tulajdonságait beállító függvény
-void Item::setDescription(const std::string& d)
-{
-    description = d;
-}

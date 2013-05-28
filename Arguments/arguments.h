@@ -14,12 +14,20 @@ enum Arguments
     MaxFP,
     ///Jelenlegi Force-pont
     CurFP,
-    ///Erő (fizikai) pont
+    ///Világos - sötét oldal pont
+    DLP,
+    ///Erõ (fizikai) pont
     STR,
-    ///Védekezés pont
-    DEF,
-    ///Gyorsaság pont
-    SPD,
+    ///Fizikai védekezés pont
+    ARM,
+    ///Erő ellenállás pont
+    FRE,
+    ///Garantált sebzés pont
+    TRDM,
+    ///Életpont regeneráció
+    HPREG,
+    ///Erőpont regeneráció
+    FPREG,
     ///Argumentumok száma
     NUMBER_OF_ARGUMENTS
 };

@@ -33,7 +33,7 @@ public:
     ///Erő ellenállás beállítása
     void setRes(unsigned r) {res = r;}
     ///Destruktor
-    ~ArmorItem() {/** Itt semmit nem kell csinálni */}
+    ~ArmorItem() { /** Itt semmit nem kell csinálni */ }
 };
 
 #endif // ARMORITEM_H

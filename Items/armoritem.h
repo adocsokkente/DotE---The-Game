@@ -25,15 +25,15 @@ public:
               { /** Itt semmit nem kell csinálni */ }
 
     ///Fizikai védelem lekérdezése
-    unsigned getDef(void) {return def;}
+    virtual unsigned getDef(void) {return def;}
     ///Erő ellenállás lekérdezése
-    unsigned getRes(void) {return res;}
+    virtual unsigned getRes(void) {return res;}
     ///Fizikai védelem beállítása
-    void setDef(unsigned d) {def = d;}
+    virtual void setDef(unsigned d) {def = d;}
     ///Erő ellenállás beállítása
-    void setRes(unsigned r) {res = r;}
+    virtual void setRes(unsigned r) {res = r;}
     ///Destruktor
-    ~ArmorItem() { /** Itt semmit nem kell csinálni */ }
+    virual ~ArmorItem() { /** Itt semmit nem kell csinálni */ }
 };
 
 #endif // ARMORITEM_H
